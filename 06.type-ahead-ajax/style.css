@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400&display=swap");
+
+html {
+  box-sizing: border-box;
+  background: lightblue;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.search-form {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.search {
+  width: 120%;
+  padding: 20px;
+  left: -10%;
+  text-align: center;
+  border: 10px solid #f7f7f7;
+  border-radius: 5px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+  z-index: 2;
+  outline: 0;
+}
+
+.suggestion {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.suggestion li {
+  list-style: none;
+  background: white;
+  border-bottom: 1px solid #d8d8d8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+  text-transform: capitalize;
+  transition: background 0.2s;
+}
+
+span.population {
+  font-size: 15px;
+}
+
+.hl {
+  background: lightblue;
+}
