@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.draw-area {
+  border: 1px solid navy;
+}

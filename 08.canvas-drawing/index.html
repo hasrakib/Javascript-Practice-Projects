@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="inputs">
+        <div>
+          <input
+            type="range"
+            id="line-width-slider"
+            min="10"
+            max="100"
+            value="10"
+            name="lineWidth"
+          />
+          <label for="lineWidth">Set the Line Width</label>
+        </div>
+        <div>
+          <input type="color" id="line-color-slider" value="#ff0000" />
+          <label for="color">Set the Line Color</label>
+        </div>
+        <div><button id="clear">Clear</button></div>
+      </div>
+      <div class="canvas">
+        <canvas class="draw-area" id="draw"></canvas>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
