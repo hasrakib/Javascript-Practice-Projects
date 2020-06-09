@@ -58,6 +58,7 @@ p {
 
 .button:hover {
   background: #ffc600;
+  cursor: pointer;
 }
 
 .button:active {
