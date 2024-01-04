@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.password-generator-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.choose-password-length{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+#password-length{
+    font-size: 1.5rem;
+}
+
+#password-generator{
+    width: 20rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border: 1px solid teal;
+}
+
+#password-generator-button{
+    width: 20rem;
+    font-size: 1.5rem;
+    background: teal;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
